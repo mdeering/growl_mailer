@@ -1,0 +1,21 @@
+h1. Install
+
+h2. Rails 3
+
+p. Include in the projects Gemfile
+
+<pre>group :development do
+  gem 'growl_mailer'
+end</pre>
+
+p. Then in the development environment set ActionMailers delivery method to :growl
+
+<pre>config.action_mailer.delivery_method = :growl</pre>
+
+h2. Rails 2
+
+p. I need to test on a rails 2 ;)
+
+h1. Options
+
+p. There are lots of options and tricks to play with but I want to wrap this experiment in testing before fully documenting.
